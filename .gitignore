@@ -1,0 +1,33 @@
+*.local.*
+*-local.yaml
+local-pctr-validated.txt
+# Gradle
+.gradle/
+build/
+bin/
+logs/
+target/
+
+*.project
+*.settings/
+*.classpath
+
+# IDEA
+out/
+/.idea/*
+*.iml
+!/.idea/codeStyles/
+!/.idea/codeStyles/codeStyleConfig.xml
+!/.idea/codeStyles/Project.xml
+!/.idea/copyright/
+!/.idea/copyright/*
+!/.idea/inspectionProfiles/
+!/.idea/inspectionProfiles/Project_Default.xml
+!/.idea/scopes/
+!/.idea/scopes/*
+!/.idea/externalDependencies.xml
+!/.idea/encodings.xml
+.idea
+
+# OS Files
+**/.DS_Store
